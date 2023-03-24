@@ -21,11 +21,17 @@ Demo link : https://www.youtube.com/shorts/qprGBMyCtcA
 "具體引腳除了ADC以外沒其他要求，可自行調整"
 
 舵機	-	servoPin (18)
+
 按鈕	-	buttonPin (15)
+
 旋鈕	-	A0 (26)
+
 手動模式 LED	-	manualLED (5)
+
 置中模式 LED	-	centerLED (6)
+
 自動模式 LED	-	autoLED (7)
+
 ### 使用說明
 將Arduino程式上傳至開發板。
 連接硬體並按照接線說明進行接線。
