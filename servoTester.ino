@@ -6,11 +6,11 @@ const int manualLED = 25;
 const int centerLED = 4;
 const int autoLED = 5;
 
- //如果你是飛控舵機預設使用60~120度 servoAngle則輸入60
+ //如果你是飛控舵機預設使用60~120度 servoAngle則輸入30
  //如果你是SG92R舵機預設使用可以0~180度則 servoAngle則輸入0
 
  
-const int servoAngle=60;
+const int servoAngle=30;
 //const int servoAngle=0;
 const int servoPin = 18;
 const int angleMin = servoAngle;
