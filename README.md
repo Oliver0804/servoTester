@@ -4,6 +4,9 @@
 1. 手動模式：通過旋鈕操縱舵機轉動。
 2. 舵機置中：將舵機轉動至90度，使其處於中心位置。
 3. 自動模式：舵機自動在最小角度和最大角度之間來回轉動。
+
+Demo link : https://www.youtube.com/shorts/qprGBMyCtcA
+
 ### 硬體需求
 1. Pico 開發板
 2. 舵機 (Servo)
