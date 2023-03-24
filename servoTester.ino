@@ -77,9 +77,7 @@ void setMode(int mode) {
 
 void manualMode() {
   int potValue = analogRead(potentiometerPin);
-
-  int angle = map(potValue, 0, 1024, 0, 180);
-
+  int angle = map(potValue, 0, 1024, angleMin, angleMax);
   Serial.println(angle);
   myservo.write(angle);
 }
